@@ -27,10 +27,7 @@ public class Line {
     }
 
     private boolean createPoint(int point) {
-        if (isExistBefore(point) == false) {
-            return randomBranchCreator.createBranch();
-        }
-        return false;
+        return !isExistBefore(point) && randomBranchCreator.createBranch();
     }
 
     private boolean isExistBefore(int point) {
