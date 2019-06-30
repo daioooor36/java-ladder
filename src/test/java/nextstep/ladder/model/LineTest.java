@@ -1,5 +1,6 @@
 package nextstep.ladder.model;
 
+import nextstep.ladder.model.Line;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
