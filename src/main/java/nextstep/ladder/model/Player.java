@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Player {
     private String name;
 
-    public Player(String name) {
+    Player(String name) {
         this.name = name;
     }
 
